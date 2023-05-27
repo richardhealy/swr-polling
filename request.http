@@ -1,0 +1,10 @@
+### Create process
+POST http://localhost:3000/processes
+content-type: application/json
+
+{
+  "id": "abc-123"
+}
+
+### Get all processes
+GET http://localhost:3000/processes
